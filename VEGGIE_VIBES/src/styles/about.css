@@ -1,0 +1,135 @@
+.about-us-container {
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f4f4a0; */
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    /* height: 100vh; */
+}
+
+/* Header section */
+.header-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-section h1 {
+    font-size: 3rem;
+    color: #4CAF50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header-section p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Mission section */
+.mission-section {
+    margin-bottom: 30px;
+}
+
+.mission-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.mission-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Values section */
+.values-section {
+    margin-bottom: 30px;
+}
+
+.values-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.values-section ul {
+    list-style-type: '👉 ';
+    padding: 0;
+}
+
+.values-section ul li {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+/* Team section */
+.team-section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    width: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Contact section */
+.contact-section {
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    color: #666;
+}
